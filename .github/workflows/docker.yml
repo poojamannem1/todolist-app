@@ -19,7 +19,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t yourusername/todolist-app:latest .
+        run: docker build -t poojamannem1/todolist-app:latest .
 
       - name: Push Docker image
-        run: docker push yourusername/todolist-app:latest
+        run: docker push poojamannem1/todolist-app:latest
